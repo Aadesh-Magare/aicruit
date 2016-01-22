@@ -1,0 +1,25 @@
+---
+declared-services:
+  personality-insights-service:
+    label: personality_insights
+    plan: 'tiered'
+  alchemy-api-service:
+    label: alchemy_api
+    plan: 'free'
+  document-conversion-service:
+    label: document_conversion
+    plan: 'standard'
+  tradeoff-analytics-service-standard:
+    label: tradeoff_analytics
+    plan: standard
+
+applications:
+- name: aicruit
+  command: npm start
+  path: .
+  memory: 1024M
+  services:
+  - Personality Insights-tj
+  - AlchemyAPI-h3
+  - Document Conversion-ur
+  - Tradeoff Analytics-2y
