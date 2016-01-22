@@ -31,3 +31,14 @@
 	6. jQuery
 	7. Bootstrape
 	8. d3.js  and chart.js
+	
+  Features
+  ---------
+	AiCruit has several features such as :
+	1. Simple application form for candidatse with resume and recommendation letter upload.
+	2. Admin Dashboard with nice GUI.
+	3. Notifications. 
+	4. To-Do list.
+	5. List of Registered Candidates.
+	6. Graph of candidate's personality reports.
+	7. Word cloud made up of Recommendation letter keywords.
