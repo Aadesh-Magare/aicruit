@@ -4,13 +4,11 @@
 
   What are system requirements?
   -----------------------------
-  Software requirements:
 	1. Node.js on any OS
 	2. npm
 
   How to run?
   -----------
-  Instructions:
 	1. Download the source code
 	2. Extract the downloaded folder
 	3. cd to the extracted folder
@@ -18,7 +16,8 @@
 	5. npm start
 	6. Open any latest browser and visit "localhost:3000/"
 
-  Important Routes:
+  Important Routes
+  ----------------
 	1. "localhost:3000/" : joinus form
 	2. "localhost:3000/dashboard" : admin panel
 
